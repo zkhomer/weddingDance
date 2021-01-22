@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  @media (max-width:700px) {
+    display: none;
+  }
+  &__item {
+    margin-left: 24px;
+    align-self: center;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+    a {
+      color: #000000;
+      text-decoration: none;
+    }
+
+  }
+  &__list {
+    display: flex;
+  }
+}
+
+
+

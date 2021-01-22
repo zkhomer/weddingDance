@@ -4,3 +4,15 @@
     #{$_property}: $_toValue;
   }
 }
+
+@mixin btn{
+  width: 161px;
+  height: 46px;
+  background-color: #fff;
+  border: #FF699F 2px solid ;
+  border-radius: $btnBorderRadius;
+  color: #FF699F;
+  cursor: pointer;
+  transition: color, background-color 0.5s;
+
+}

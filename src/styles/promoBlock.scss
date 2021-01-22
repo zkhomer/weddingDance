@@ -1,0 +1,41 @@
+.promo-block {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    @media(max-width: 1080px) {
+      flex-direction: column-reverse;
+      .info{
+        margin-left: 30px;
+      }
+    }
+  }
+
+  .info {
+    max-width: 350px;
+
+    &__title {
+      font-size: 72px;
+      font-weight: bold;
+      margin-bottom: 0;
+      line-height: 68px;
+    }
+
+    &__sub-title {
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 29px;
+      margin-top: 16px;
+      text-align: left;
+    }
+
+    &__text {
+      line-height: 25px;
+      margin-bottom: 40px;
+    }
+  }
+
+  &__img img {
+    width: 100%;
+  }
+}
