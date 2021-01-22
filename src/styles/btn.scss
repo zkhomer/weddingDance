@@ -1,4 +1,4 @@
-.nav__btn{
+.nav__btn {
   width: $widthNavBtn;
   height: $heightNavBtn;
   margin-left: 35px;
@@ -7,8 +7,9 @@
   background-color: transparent;
   color: black;
   cursor: pointer;
-  transition: background-color,color 0.5s;
-  &:hover{
+  transition: background-color, color 0.5s;
+
+  &:hover {
     background-color: #000;
     color: white;
 
@@ -16,9 +17,10 @@
 }
 
 .btn {
-@include btn;
-  &:hover{
+  @include btn;
+
+  &:hover {
     color: white;
-    background-color: #FF699F;
+    background-color: #ff699f;
   }
 }

@@ -1,8 +1,9 @@
 .nav {
   display: flex;
-  @media (max-width:700px) {
+  @media (max-width: 700px) {
     display: none;
   }
+
   &__item {
     margin-left: 24px;
     align-self: center;
@@ -11,15 +12,13 @@
     font-size: 14px;
 
     a {
-      color: #000000;
+      color: #000;
       text-decoration: none;
     }
 
   }
+
   &__list {
     display: flex;
   }
 }
-
-
-
