@@ -1,0 +1,59 @@
+
+.coaches__cards {
+  display: flex;
+  overflow: scroll;
+}
+
+.coaches__card {
+  display: flex;
+  width: 486px;
+  margin-right: 11px;
+  margin-bottom: 64px;
+  border-top: 32px;
+
+  @media (max-width: 515px) {
+    flex-direction: column;
+
+  }
+
+}
+
+.coaches__card-content {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 24px;
+  margin-right: 11px;
+
+  & button {
+    margin-top: 90px;
+    @media (max-width: 513px) {
+      border-radius: 50%;
+      width: 33px;
+      height: 33px;
+      margin-top: 0;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+
+  & button span {
+    @media (max-width: 515px) {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 515px) {
+  .btn_coaches:before {
+    content: ">";
+  }
+}
+
+.coaches__card-img img {
+  max-width: 100%;
+  min-width: 286px;
+  margin-bottom: 16px;
+}
