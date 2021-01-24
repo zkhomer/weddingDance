@@ -1,0 +1,19 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  color: white;
+  padding: 27px 72px;
+  margin-top: 100px;
+
+  .logo {
+    a {
+      color: white;
+    }
+  }
+}
+
+.copyright {
+  font-family: "montserrat", sans-serif;
+  font-size: 16px;
+}
