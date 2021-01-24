@@ -1,0 +1,30 @@
+.offer {
+
+  &__items {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 70px;
+      width: 25%;
+      @media (max-width: 786px) {
+        width: 50%;
+        margin-bottom: 45px;
+      }
+    }
+
+    &-item span {
+      font-weight: lighter;
+      size: 16px;
+      line-height: 24px;
+      margin: 14px;
+      text-align: center;
+    }
+  }
+}

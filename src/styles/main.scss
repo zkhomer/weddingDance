@@ -7,6 +7,8 @@
 @import "nav";
 @import "promoBlock";
 @import "services";
+@import "slider";
+@import "offer";
 
 * {
   box-sizing: border-box;
@@ -21,7 +23,7 @@ h1 {
 
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "montserat", sans-serif;
   background-color: #f2f9ff;
 }
 
