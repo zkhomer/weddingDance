@@ -6,16 +6,16 @@
 
 .coaches__card {
   display: flex;
-  width: 486px;
+  height: 420px;
   margin-right: 11px;
   margin-bottom: 64px;
-  border-top: 32px;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  box-shadow: 0 4px 30px rgba(207, 207, 207, 0.25);
+  border-radius: 2px;
 
   @media (max-width: 515px) {
     flex-direction: column;
-
   }
-
 }
 
 .coaches__card-content {
@@ -23,11 +23,10 @@
   position: relative;
   flex-direction: column;
   justify-content: center;
-  margin-left: 24px;
-  margin-right: 11px;
+  margin: 24px;
 
   & button {
-    margin-top: 90px;
+    margin-top: 66px;
     @media (max-width: 513px) {
       border-radius: 50%;
       width: 33px;
@@ -54,6 +53,6 @@
 
 .coaches__card-img img {
   max-width: 100%;
-  min-width: 286px;
-  margin-bottom: 16px;
+  max-height: 100%;
+  min-width: 287px;
 }
