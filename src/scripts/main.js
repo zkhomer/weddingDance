@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-use-before-define
 import $ from 'jquery';
 
 function burgerMenu(selector) {

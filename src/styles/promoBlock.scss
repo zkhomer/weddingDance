@@ -51,5 +51,8 @@
 
   &__img img {
     width: 100%;
+    @media (max-width: 1080px) {
+      max-height: calc(100vh - 72px);
+    }
   }
 }

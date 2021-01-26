@@ -5,20 +5,36 @@
   }
 
   &__item {
-    margin-left: 24px;
+    margin-left: $navItemGap;
     align-self: center;
-    font-weight: 400;
-    font-size: 14px;
+    font-size: $navitemSize;
+    tab-index: 1;
+
     a {
-      color: #000;
-      text-decoration: none;
+      position: relative;
+      color: $navItemColor;
+      &::after {
+        content: '';
+        position: absolute;
+        height: 3px;
+        width: 0;
+        display: block;
+        left: 50%;
+        transform: translate(-50%);
+        background: #060606;
+        transition: width 0.5s;
+      }
+
+      &:hover {
+        &::after {
+          width: 100%;
+        }
+      }
     }
 
   }
 
   &__list {
     display: flex;
-    justify-content: flex-end;
-
   }
 }

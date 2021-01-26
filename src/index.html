@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Wedding Dance</title>
     <link rel="stylesheet" href="./styles/main.scss">
     <script
       defer
@@ -12,15 +12,16 @@
     </script>
   </head>
   <body>
+
     <header class="header container">
       <h1 class="logo">
         <a href="#">Wedding Dance</a>
       </h1>
       <nav class="nav">
         <ul class="nav__list-items nav__list">
-          <li class="nav__item "><a href="#">Services</a></li>
-          <li class="nav__item "><a href="#">Our Coaches</a></li>
-          <li class="nav__item "><a href="#">Testimonials</a></li>
+          <li class="nav__item "><a href="#services-block">Services</a></li>
+          <li class="nav__item "><a href="#coaches-block">Our Coaches</a></li>
+          <li class="nav__item "><a href="#offer-block">Testimonials</a></li>
           <li class="nav__item "><a href="#">FAQ</a></li>
           <li class="nav__item "><a href="#">Lesson Review</a></li>
         </ul>
@@ -40,11 +41,9 @@
           <span class="burger-background-text">menu</span>
           <button class="burger-btn btn">Let’s start</button>
         </nav>
-
         <div class="burger-menu_overlay"></div>
       </div>
     </header>
-
 
     <section class="promo-block" id="promo">
       <div class="promo-block__wrapper fillContainer">
@@ -61,17 +60,16 @@
         </div>
       </div>
     </section>
+
     <section class="services container" id="services-block">
       <div class="services__wrapper">
-        <h2 class="services__title">Our Services</h2>
-        <p class="services__description">
+        <h2 class="title">Our Services</h2>
+        <p class="title__description">
           We want to make your wedding day perfect that is why suggest
           a lot of options for dance: not only for a bride and groom but for their friends and relatives
         </p>
         <div class="cards">
-
           <div class="cards__card">
-
             <img
               class="services__card-img"
               src="../src/images/Services_img/1196.jpg"
@@ -81,9 +79,7 @@
               First Dance <br>
               Parent & Child Dance
             </p>
-
           </div>
-
           <div class="cards__card">
             <img
               class="services__card-img"
@@ -96,7 +92,6 @@
               Children’s Dance
             </p>
           </div>
-
           <div class="cards__card">
             <img
               class="services__card-img"
@@ -111,10 +106,11 @@
         </div>
       </div>
     </section>
+
     <section class="offer container" id="offer-block">
       <div class="offer__wrapper">
-        <h2 class="services__title">What we offer</h2>
-        <p class="services__description">
+        <h2 class="title">What we offer</h2>
+        <p class="title__description">
           Our goal is not only to teach you how to dance but also give the best unforgettable memories about preparing to your event
         </p>
         <div class="offer__items">
@@ -126,7 +122,7 @@
             <img src="../src/images/offers_Img/2.svg" alt="Cozy rooms for training">
             <span>Cozy rooms for training</span>
           </div>
-          <div class="offer__items-item">
+          <div class="offer__items-item slide-in-blurred-top">
             <img src="../src/images/offers_Img/3.svg" alt="Coffee, tea, and cookies">
             <span>Coffee, tea, and cookies</span>
           </div>
@@ -153,10 +149,11 @@
         </div>
       </div>
     </section>
+
     <section class="coaches" id="coaches-block">
       <div class="coaches__wrapper container">
-        <h2 class="services__title">Our Coaches</h2>
-        <p class="services__description">
+        <h2 class="title">Our Coaches</h2>
+        <p class="title__description">
         Coaches in our school are not only perfect dancers but also have a big experience in coaching that is why you will feel really amazing after each of your class
         </p>
         <div class="coaches__cards">
@@ -165,47 +162,56 @@
               <img src="./images/coaches_img/image.jpg" alt="coaches image">
             </div>
             <div class="coaches__card-content">
-              <span>01</span>
-              <h3>Ann Walker</h3>
-              <p>Work experience <span>8 year</span></p>
-              <p>Teacher for <span>3year</span></p>
-              <p>Style <span>Viennese Waltz, Salsa</span></p>
-
+              <span class="coaches__number">01</span>
+              <h3>
+                Ann Walker <br>
+                <span class="coaches__exp">Dancer</span>
+              </h3>
+              <p>
+                <span class="coaches__type">Work experience</span>
+                <span class="coaches__exp">8 year</span>
+              </p>
+              <p>
+                <span class="coaches__type">Teacher for</span>
+                <span class="coaches__exp">3 year</span>
+              </p>
+              <p>
+                <span class="coaches__type">Style</span>
+                <span class="coaches__exp">Viennese Waltz, Salsa</span>
+              </p>
               <button class="btn btn_coaches"><span>Let’s start</span></button>
-
             </div>
           </div>
           <div class="coaches__card">
             <div class="coaches__card-img">
-              <img src="./images/coaches_img/image.jpg" alt="coaches image">
+              <img src="./images/coaches_img/image2.jpg" alt="coaches image">
             </div>
             <div class="coaches__card-content">
-              <span>02</span>
-              <h3>Ann Walker</h3>
-              <p>Work experience <span>8 year</span></p>
-              <p>Teacher for <span>3year</span></p>
-              <p>Style <span>Viennese Waltz, Salsa</span></p>
+              <span class="coaches__number">02</span>
+              <h3>
+                Tom Wilspon <br>
+                <span class="coaches__exp">Dancer</span>
+              </h3>
 
-              <button class="btn btn_coaches"><span>Let’s start</span></button>
-
-            </div>
-          </div>
-          <div class="coaches__card">
-            <div class="coaches__card-img">
-              <img src="./images/coaches_img/image.jpg" alt="coaches image">
-            </div>
-            <div class="coaches__card-content">
-              <span>03</span>
-              <h3>Ann Walker</h3>
-              <p>Work experience <span>8 year</span></p>
-              <p>Teacher for <span>3year</span></p>
-              <p>Style <span>Viennese Waltz, Salsa</span></p>
+              <p>
+                <span class="coaches__type">Work experience</span>
+                <span class="coaches__exp">10 year</span>
+              </p>
+              <p>
+                <span class="coaches__type">Teacher for</span>
+                <span class="coaches__exp">5 year</span>
+              </p>
+              <p>
+                <span class="coaches__type">Style</span>
+                <span class="coaches__exp">HipHop</span>
+              </p>
               <button class="btn btn_coaches"><span>Let’s start</span></button>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <footer class="footer" id="footer-block">
       <div class="logo">
         <a href="#">Wedding Dance</a>
@@ -214,5 +220,6 @@
         Copyright © 2019
       </div>
     </footer>
+
   </body>
 </html>

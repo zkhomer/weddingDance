@@ -4,6 +4,9 @@ footer {
   background: black;
   color: white;
   padding: 27px 72px;
+  @media (max-width: 510px) {
+    padding: 27px;
+  }
 
   .logo {
     a {
@@ -13,6 +16,5 @@ footer {
 }
 
 .copyright {
-  font-family: "montserrat", sans-serif;
   font-size: 16px;
 }
