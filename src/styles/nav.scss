@@ -8,13 +8,12 @@
     margin-left: $navItemGap;
     align-self: center;
     font-size: $navitemSize;
-    tab-index: 1;
-
     a {
       position: relative;
       color: $navItemColor;
+
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         height: 3px;
         width: 0;
