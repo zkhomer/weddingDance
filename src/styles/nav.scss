@@ -1,4 +1,6 @@
 .nav {
+  opacity: 0;
+  animation: fade-in 1s forwards 0.5s;
   display: flex;
   @media (max-width: 804px) {
     display: none;
