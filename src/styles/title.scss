@@ -1,0 +1,10 @@
+.title {
+  font-size: $titleSize;
+
+  &__description {
+    max-width: 668px;
+    font-size: $descriptionSize;
+    line-height: 153.4%;
+    font-weight: lighter;
+  }
+}

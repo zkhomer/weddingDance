@@ -1,0 +1,41 @@
+.nav {
+  opacity: 0;
+  animation: fade-in 1s forwards 0.5s;
+  display: flex;
+  @media (max-width: 804px) {
+    display: none;
+  }
+
+  &__item {
+    margin-left: $navItemGap;
+    align-self: center;
+    font-size: $navitemSize;
+    a {
+      position: relative;
+      color: $navItemColor;
+
+      &::after {
+        content: "";
+        position: absolute;
+        height: 3px;
+        width: 0;
+        display: block;
+        left: 50%;
+        transform: translate(-50%);
+        background: #060606;
+        transition: width 0.5s;
+      }
+
+      &:hover {
+        &::after {
+          width: 100%;
+        }
+      }
+    }
+
+  }
+
+  &__list {
+    display: flex;
+  }
+}

@@ -1,0 +1,39 @@
+.services {
+  &__wrapper {
+    margin-bottom: $blockGap;
+  }
+
+  &__card-title {
+    text-align: left;
+    margin-left: 24px;
+  }
+
+  &__card-description {
+    max-width: 668px;
+    size: $servDescriptionSize;
+    font-weight: lighter;
+    line-height: 24px;
+    margin-left: 24px;
+  }
+
+  .cards {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    overflow: scroll;
+
+    &__card {
+      margin-right: 12px;
+      min-width: 200px;
+      max-width: 420px;
+      border: 1px solid rgba(0, 0, 0, 0.04);
+      box-shadow: $shadow;
+      border-radius: $borderRadius;
+
+    }
+  }
+
+  &__card-img {
+    width: 100%;
+  }
+}

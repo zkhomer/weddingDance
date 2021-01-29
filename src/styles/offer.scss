@@ -1,0 +1,50 @@
+.offer {
+
+  &__items {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 70px;
+      width: 25%;
+      @media (max-width: 786px) {
+        width: 50%;
+        margin-bottom: 45px;
+      }
+    }
+
+    &-item img {
+      width: 84px;
+    }
+
+    &-item span {
+      font-weight: lighter;
+      size: 16px;
+      line-height: 24px;
+      margin: 14px;
+      text-align: center;
+    }
+  }
+}
+
+.wobble-hor-bottom:hover {
+  animation: wobble-hor-bottom 0.8s both;
+}
+
+.pulsate-bck:hover {
+  animation: pulsate-bck 0.5s ease-in-out infinite both;
+}
+
+.shake-bottom:hover {
+  animation: shake-bottom 0.8s cubic-bezier(0.46, 0.3, 0.52, 0.95) both;
+}
+
+.jello-diagonal-2:hover {
+  animation: jello-diagonal-2 0.8s both;
+}
