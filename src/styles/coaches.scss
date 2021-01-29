@@ -1,7 +1,10 @@
 
 .coaches__cards {
   display: flex;
-  overflow: scroll;
+  @media (max-width: 1050px) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .coaches__card {
